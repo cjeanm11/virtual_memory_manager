@@ -2,6 +2,8 @@
 
 # Virtual Memory Manager
 
+#### This repository contains the code and documentation for an academic project at the University of Montreal.
+
 ## Overview
 
 This project involves implementing a Virtual Memory Manager in C, employing the paging technique to simulate consecutive memory accesses. The objective is to translate logical addresses into 16-bit physical addresses within a 65536-byte virtual address space.
@@ -32,3 +34,6 @@ The program reads and executes commands from standard input (*stdin*) for logica
 The program handles read or write commands from *stdin* with the following formats:
 - Write command: `w<logical-address>'<char-to-write>';` (e.g., `w20'b';`)
 - Read command: `r<logical-address>;` (e.g., `r89;`)
+
+
+
